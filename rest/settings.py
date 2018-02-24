@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'tutorial_1',
     'tutorial_2',
+    'tutorial_3',
 ]
 
 MIDDLEWARE = [
