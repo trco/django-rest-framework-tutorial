@@ -25,4 +25,9 @@ urlpatterns = [
     path('tutorial_1/', include('tutorial_1.urls', namespace='tutorial_1')),
     path('tutorial_2/', include('tutorial_2.urls', namespace='tutorial_2')),
     path('tutorial_3/', include('tutorial_3.urls', namespace='tutorial_3')),
+    path('tutorial_4/', include('tutorial_4.urls', namespace='tutorial_4')),
+]
+
+urlpatterns += [
+    path('api-auth/', include('rest_framework.urls')),
 ]
