@@ -42,7 +42,13 @@ INSTALLED_APPS = [
     'tutorial_2',
     'tutorial_3',
     'tutorial_4',
+    'tutorial_5',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 2
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

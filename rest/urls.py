@@ -26,6 +26,7 @@ urlpatterns = [
     path('tutorial_2/', include('tutorial_2.urls', namespace='tutorial_2')),
     path('tutorial_3/', include('tutorial_3.urls', namespace='tutorial_3')),
     path('tutorial_4/', include('tutorial_4.urls', namespace='tutorial_4')),
+    path('tutorial_5/', include('tutorial_5.urls')),
 ]
 
 urlpatterns += [
