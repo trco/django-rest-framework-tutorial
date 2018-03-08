@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'tutorial_3',
     'tutorial_4',
     'tutorial_5',
+    'tutorial_6',
 ]
 
 REST_FRAMEWORK = {
